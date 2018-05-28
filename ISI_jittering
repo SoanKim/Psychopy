@@ -1,0 +1,19 @@
+## Author : SommersKim
+## Date : May 28, 2018
+## Project : How to Add ISI Jitter Period in Psychopy Lines
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# This experiment was created using PsychoPy2 Experiment Builder (v1.90.2)
+
+from numpy.random import choice
+
+# ------Prepare to start Routine "new"-------
+t = 0
+newClock.reset()  # clock
+frameN = -1
+continueRoutine = True
+fix_rng = [0.3, 3.0]
+dur = np.random.choice(fix_rng)
+routineTimer.add(dur)
